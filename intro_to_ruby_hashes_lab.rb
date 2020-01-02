@@ -24,7 +24,7 @@ def id_generator
   return_hash = {
     :id => 5
   }
-  return return_hash
+  #return return_hash
   
 end
 
