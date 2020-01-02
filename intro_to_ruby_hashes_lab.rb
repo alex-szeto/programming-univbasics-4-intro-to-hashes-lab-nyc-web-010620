@@ -13,6 +13,10 @@ end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  return_hash = {
+    :name => 'Grace Hopper'
+  }
+  return return_hash
 end
 
 def id_generator
