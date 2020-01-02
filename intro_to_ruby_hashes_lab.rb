@@ -22,8 +22,9 @@ end
 def id_generator
   # return a hash with a key :id assigned to positive integer
   return_hash = {
-    
+    :id = 5
   }
+  return return_hash
   
 end
 
