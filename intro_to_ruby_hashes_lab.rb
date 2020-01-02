@@ -1,9 +1,14 @@
 def new_hash
-  # return an empty hash
+  test_hash = Hash.new(0)
+  return test_hash
 end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  test_hash = {
+    :testkey => "value"
+  }
+  return test_hash
 end
 
 def pioneer
